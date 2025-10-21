@@ -8,4 +8,11 @@ public class Semimetallo extends Atomo {
     public double getPesoAtomico() {
         return numeroAtomico / 2.0;
     }
+
+    @Override
+    public boolean isCompatibile(Atomo altro) {
+        return super.isCompatibile(altro);
+    }
+
+
 }

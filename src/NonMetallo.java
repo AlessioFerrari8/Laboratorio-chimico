@@ -12,6 +12,13 @@ public class NonMetallo extends Atomo {
         return numeroAtomico * simbolo.length();
     }
 
+    @Override
+    public boolean isCompatibile(Atomo altro) {
+        return super.isCompatibile(altro);
+    }
+
+    
+
 
 
     

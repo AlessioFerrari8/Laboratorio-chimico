@@ -8,4 +8,10 @@ public class GasNobile extends Atomo {
     public double getPesoAtomico() {
         return 1.0 / numeroAtomico;
     }
+
+    @Override
+    public boolean isCompatibile(Atomo altro) {
+        return super.isCompatibile(altro);
+    }
+    
 }
